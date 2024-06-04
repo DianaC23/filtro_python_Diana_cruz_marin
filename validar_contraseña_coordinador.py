@@ -1,7 +1,7 @@
 import menu_del_coordinador
 #Cotraseña coordinador:coordi123
 def validar_password():
-    ingresar_password = input("por favor ingrese la contraseña")
+    ingresar_password = input("por favor ingrese la contraseña: ")
     contra = "coordi123"
     if ingresar_password == contra:
         print("Bienvenido coordinador")
