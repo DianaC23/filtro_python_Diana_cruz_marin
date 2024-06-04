@@ -3,7 +3,9 @@
         "1111": {
             "notas": 100.0,
             "state": "Aprobado",
-            "risk": "en espera",
+            "risk": "Rendimiento bajo",
+            "notas_trainer": 16.0,
+            "llamado": 1,
             "name": "Luis",
             "last_name": "Garcia",
             "address": "patagonia",
@@ -16,7 +18,9 @@
         "22222": {
             "notas": 0,
             "state": "Aprobado",
-            "risk": "en espera",
+            "risk": "Aprobado",
+            "notas_trainer": 100.0,
+            "llamado": 0,
             "name": "Carolina",
             "last_name": "Marin",
             "address": "Santatersita",
@@ -29,7 +33,9 @@
         "99090508810": {
             "notas": 0,
             "state": "Aprobado",
-            "risk": "en espera",
+            "risk": "Aprobado",
+            "notas_trainer": 80.4,
+            "llamado": 0,
             "name": "Diana",
             "last_name": "Cruz",
             "address": "Carboneros 2",
@@ -39,51 +45,66 @@
             "cell_phone": 3126102799,
             "phone": 6063286701,
             "Trainers": "trainer1"
+        },
+        "1234567890": {
+            "notas": 0,
+            "state": "Aprobado",
+            "risk": "Aprobado",
+            "notas_trainer": 80.4,
+            "llamado": 0,
+            "name": "Mario",
+            "last_name": "Zurc",
+            "address": "aguazul",
+            "acudiente": "Pedro Zurc",
+            "email": "mariobb@gmail.com",
+            "n_ID": 1234567890,
+            "cell_phone": 10202,
+            "phone": 6666666,
+            "Trainers": "trainer1"
         }
     },
-    "Trainers" : {
-        "trainer1":{
+    "Trainers": {
+        "trainer1": {
             "profe": "Juan"
         },
-        "trainer2":{
-            "profe":"Jholver"
+        "trainer2": {
+            "profe": "Jholver"
         },
-        "trainer3":{
-            "profe":"Miguel"
+        "trainer3": {
+            "profe": "Miguel"
         }
     },
-    "Rutas":{
-        "ruta1":{
+    "Rutas": {
+        "ruta1": {
             "rname": "NodeJS"
         },
-        "ruta2":{
+        "ruta2": {
             "rname": "Java"
         },
-        "ruta3":{
+        "ruta3": {
             "rname": "NETcore"
         },
-        "AREAS":{
-            "area1":{
+        "AREAS": {
+            "area1": {
                 "are1": "Sputnik"
             },
-            "area2":{
+            "area2": {
                 "are2": "Apolo"
             },
-            "area3":{
+            "area3": {
                 "are3": "Artemis"
             }
         },
-        "HORARIO":{
-           "mañana":{
-            "hora1": "6am a 10am"
-           },
-           "Mediodia":{
-            "hora2": "10am a 2pm"
-           },
-           "Tarde":{
-            "hora3": "2pm a 6pm"
-           }
+        "HORARIO": {
+            "ma\u00f1ana": {
+                "hora1": "6am a 10am"
+            },
+            "Mediodia": {
+                "hora2": "10am a 2pm"
+            },
+            "Tarde": {
+                "hora3": "2pm a 6pm"
+            }
         }
-            
     }
 }

@@ -1,6 +1,6 @@
 import menu_del_trainer
 def validar_password_trainer():
-        ingresar_password = input("por favor ingrese la contraseña")
+        ingresar_password = input("por favor ingrese la contraseña: ")
         password1 = "juanito123"
         password2 = "jholver123"
         password3 = "miguelito123"

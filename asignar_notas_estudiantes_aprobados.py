@@ -7,8 +7,7 @@ def leer_datos():
             print("Ingresar notas del camper")
             nota1 = int(input("Digite la primera nota"))
             nota2 = int(input("Digite la segunda nota"))
-            nota3 = int(input("Digite la tercera nota"))
-            nota_final = (nota1 * 0.3)+(nota2 *  0.6) + (nota3 * 0.1)
+            nota_final = (nota1 +nota2)/2
             if nota_final >=60:
                 nuevo["campers"][str(documento)]["state"] = "Aprobado"
                 nuevo["campers"][str(documento)]["notas"] = nota_final

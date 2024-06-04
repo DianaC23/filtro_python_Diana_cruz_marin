@@ -4,6 +4,8 @@ def ingresar_datos_d_camper():
     datos_camper ["notas"] = 0
     datos_camper ["state"] = "inscrito"
     datos_camper ["risk"] = "en espera"
+    datos_camper ["notas_trainer"] = 0
+    datos_camper ["llamado"] = 0
     datos_camper ["name"] = input("Ingrese su nombre: ")
     datos_camper ["last_name"] = input("Ingrese su apellido: ")
     datos_camper ["address"] = input("Ingrese su direccion: ")
