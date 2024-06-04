@@ -16,7 +16,7 @@
             "phone": 11
         },
         "22222": {
-            "notas": 0,
+            "notas": 80.0,
             "state": "Aprobado",
             "risk": "Aprobado",
             "notas_trainer": 100.0,
@@ -79,30 +79,55 @@
     "Rutas": {
         "ruta1": {
             "rname": "NodeJS",
-            "GUARDAR_CAMPER" :{}
+            "GUARDAR_CAMPER": []
         },
         "ruta2": {
             "rname": "Java",
-            "GUARDAR_CAMPER" :{}
+            "GUARDAR_CAMPER": []
         },
         "ruta3": {
             "rname": "NETcore",
-            "GUARDAR_CAMPER" :{}
+            "GUARDAR_CAMPER": {}
         },
+            "nruta1":{
+                "nwruta": "Fundamentos de programación",
+                "nmodulo1":"Introducción a la algoritmia",
+                "nmodulo2": "PSeInt y Python"
+
+            },
+            "nruta2":{
+                "nwruta": "Programación Web",
+                "nmodulo1":"HTML",
+                "nmodulo2": "CSS y Bootstrap"
+
+            },
+            "nruta3":{
+                "nwruta": "Programación formal",
+                "nmodulo1":"Java y JavaScript",
+                "nmodulo2": "C#"
+
+            },
+            "nruta4":{
+                "nwruta": "Bases de datos",
+                "nmodulo1":"Mysql",
+                "nmodulo2": "MongoDb y Postgresql"
+
+            },
+            "nruta5":{
+                "agregar_nruta1": "en espera"
+            },
         "AREAS": {
             "area1": {
                 "are1": "Sputnik",
-                "Trainers" :"trainer1"
+                "Trainers": "trainer1"
             },
             "area2": {
                 "are2": "Apolo",
-                "Trainers" :"trainer2"
-                
+                "Trainers": "trainer2"
             },
             "area3": {
                 "are3": "Artemis",
-                "Trainers" :"trainer3"
-                
+                "Trainers": "trainer3"
             }
         },
         "HORARIO": {
@@ -118,6 +143,7 @@
                 "hora3": "2pm a 6pm",
                 "are2": "Apolo"
             }
+        }
         }
     }
 }

@@ -1,7 +1,4 @@
-import rutas_de_entrenamiento
 import asignar_notas_estudiantes_aprobados
-import agregar_ruta
-import cargar_estudiantes_a_rutas
 import json
 def menu_coordinador_menu():
      while True:
@@ -33,28 +30,10 @@ def menu_coordinador_menu():
                     #3 para crear rutas de entrenamiento
                 #3 Quieres crear rutas de entrenamiento
         elif opc_menu_coordinador == "3":
-                print("crear rutas de entrenamiento")
-                rutas_de_entrenamiento.agregar_nuevas_rutas()
-                opc_menu_rutas = input("~")
-                if opc_menu_rutas == "1":
-                    print("Agregar rutas de entrenamiento")
-                    agregar_ruta.ingresar_datos_de_ruta()
-                elif opc_menu_rutas == "2":
-                    print("Leer rutas de entrenamiento")
-                elif opc_menu_rutas == "3":
-                    print("actualizar rutas de entrenamiento")
-                elif opc_menu_rutas == "4":
-                    print("eliminar rutas de entrenamiento")
-                elif opc_menu_rutas == "5":
-                    print("Gracias por usar nuestro programa")
-                    break
-                else:
-                    print("error por favor ingrese uno de los valores que aparecen en pantalla")
-                    
+                print("crear rutas de entrenamiento")       
             #4 para asignar campers a rutas de entrenamiento
         elif opc_menu_coordinador == "4":
                 print("asignar campers a rutas de entrenamiento")
-                cargar_estudiantes_a_rutas.cargar_estudiantes_rut()
             #asignar trainers a rutas [33]
         elif opc_menu_coordinador == "5":
                 print("asignar trainers")
