@@ -59,51 +59,64 @@
             "email": "mariobb@gmail.com",
             "n_ID": 1234567890,
             "cell_phone": 10202,
-            "phone": 6666666,
-            "Trainers": "trainer1"
+            "phone": 6666666
         }
     },
     "Trainers": {
         "trainer1": {
-            "profe": "Juan"
+            "profe": "Juan",
+            "Rutas": "Java"
         },
         "trainer2": {
-            "profe": "Jholver"
+            "profe": "Jholver",
+            "Rutas": "Netcore"
         },
         "trainer3": {
-            "profe": "Miguel"
+            "profe": "Miguel",
+            "Rutas": "NodeJS"
         }
     },
     "Rutas": {
         "ruta1": {
-            "rname": "NodeJS"
+            "rname": "NodeJS",
+            "GUARDAR_CAMPER" :{}
         },
         "ruta2": {
-            "rname": "Java"
+            "rname": "Java",
+            "GUARDAR_CAMPER" :{}
         },
         "ruta3": {
-            "rname": "NETcore"
+            "rname": "NETcore",
+            "GUARDAR_CAMPER" :{}
         },
         "AREAS": {
             "area1": {
-                "are1": "Sputnik"
+                "are1": "Sputnik",
+                "Trainers" :"trainer1"
             },
             "area2": {
-                "are2": "Apolo"
+                "are2": "Apolo",
+                "Trainers" :"trainer2"
+                
             },
             "area3": {
-                "are3": "Artemis"
+                "are3": "Artemis",
+                "Trainers" :"trainer3"
+                
             }
         },
         "HORARIO": {
-            "ma\u00f1ana": {
-                "hora1": "6am a 10am"
+            "mañana": {
+                "hora1": "6am a 10am",
+                "are3": "Artemis"
             },
             "Mediodia": {
-                "hora2": "10am a 2pm"
+                "hora2": "10am a 2pm",
+                "are1": "Sputnik"
             },
             "Tarde": {
-                "hora3": "2pm a 6pm"
+                "hora3": "2pm a 6pm",
+                "are2": "Apolo"
             }
         }
     }
