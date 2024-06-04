@@ -1,11 +1,9 @@
-import json
-
 import guardar_muestra
 def leer_datos():
     while True:
-        documento = input("Digite el documento del camper inscrito: ")#ponerle el int
-        nuevo = guardar_muestra.guardarusuario(documento)
-        if str(documento) in nuevo["campers"]:
+        documento = input("Digite el documento del camper inscrito: ")
+        nuevo = guardar_muestra.cargar_usuario()
+        if (documento) in nuevo["campers"]:
             print("Ingresar notas del camper")
             
             nota1 = int(input("Digite la primera nota"))
@@ -14,16 +12,19 @@ def leer_datos():
             nota_final = (nota1 * 0.3)+(nota2 *  0.6) + (nota3 * 0.1)
             if nota_final >=60:
                 nuevo["campers"][str(documento)]["state"] = "Aprobado"
+                nuevo["campers"][str(documento)]["notas"] = nota_final
                 print("El camper fue aprobado exitosamente :)")
-                guardar_muestra.guardar_usuario(nuevo)
+                guardar_muestra.guardarusuario(nuevo)
             elif nota_final <60:
                 nuevo["campers"][str(documento)]["state"] = "Reprobo"
-                print("El camper fue aReprobado :(")
-                guardar_muestra.guardar_usuario(nuevo)
+                nuevo["campers"][str(documento)]["notas"] = nota_final
+                print("El camper fue Reprobado :(")
+                guardar_muestra.guardarusuario(nuevo)
             else:
                 print("error")
         else:
-            print("El camper no se encuentra en la base de datos")         
+            print("El camper no se encuentra en la base de datos")
+            break       
 """def leer_datos():
         with open('datos.json', 'r') as file:
             datos = json.load(file)

@@ -1,7 +1,7 @@
 import datos_para_inscribir_nuevos_campers
 def ingresar_datos_d_camper():
     datos_camper = {}
-    datos_camper ["notas"] = []
+    datos_camper ["notas"] = 0
     datos_camper ["state"] = "inscrito"
     datos_camper ["risk"] = "en espera"
     datos_camper ["name"] = input("Ingrese su nombre: ")

@@ -1,34 +1,30 @@
 {
-    "campers": [
-        {
-            "1111": {
-                "notas": [],
-                "state": "inscrito",
-                "risk": "en espera",
-                "name": "Luis",
-                "last_name": "Garcia",
-                "address": "patagonia",
-                "acudiente": "luisito",
-                "email": "eluis@gmail.com",
-                "n_ID": 1111,
-                "cell_phone": 111,
-                "phone": 11
-            }
+    "campers": {
+        "1111": {
+            "notas": 100.0,
+            "state": "Aprobado",
+            "risk": "en espera",
+            "name": "Luis",
+            "last_name": "Garcia",
+            "address": "patagonia",
+            "acudiente": "luisito",
+            "email": "eluis@gmail.com",
+            "n_ID": 1111,
+            "cell_phone": 111,
+            "phone": 11
         },
-        {
-            "22222": {
-                "notas": [],
-                "state": "inscrito",
-                "risk": "en espera",
-                "name": "Carolina",
-                "last_name": "Marin",
-                "address": "Santatersita",
-                "acudiente": "Luis Eduardo Gomes",
-                "email": "carola@gmail.com",
-                "n_ID": 22222,
-                "cell_phone": 2222,
-                "phone": 22
-            }
+        "22222": {
+            "notas": 0,
+            "state": "Aprobado",
+            "risk": "en espera",
+            "name": "Carolina",
+            "last_name": "Marin",
+            "address": "Santatersita",
+            "acudiente": "Luis Eduardo Gomes",
+            "email": "carola@gmail.com",
+            "n_ID": 22222,
+            "cell_phone": 2222,
+            "phone": 22
         }
-    ]
+    }
 }
