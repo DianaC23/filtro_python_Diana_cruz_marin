@@ -25,6 +25,65 @@
             "n_ID": 22222,
             "cell_phone": 2222,
             "phone": 22
+        },
+        "99090508810": {
+            "notas": 0,
+            "state": "Aprobado",
+            "risk": "en espera",
+            "name": "Diana",
+            "last_name": "Cruz",
+            "address": "Carboneros 2",
+            "acudiente": "Adriana Marin",
+            "email": "diana2ne1@gmail.com",
+            "n_ID": 99090508810,
+            "cell_phone": 3126102799,
+            "phone": 6063286701,
+            "Trainers": "trainer1"
         }
+    },
+    "Trainers" : {
+        "trainer1":{
+            "profe": "Juan"
+        },
+        "trainer2":{
+            "profe":"Jholver"
+        },
+        "trainer3":{
+            "profe":"Miguel"
+        }
+    },
+    "Rutas":{
+        "ruta1":{
+            "rname": "NodeJS"
+        },
+        "ruta2":{
+            "rname": "Java"
+        },
+        "ruta3":{
+            "rname": "NETcore"
+        },
+        "AREAS":{
+            "area1":{
+                "are1": "Sputnik"
+            },
+            "area2":{
+                "are2": "Apolo"
+            },
+            "area3":{
+                "are3": "Artemis"
+            }
+        },
+        "HORARIO":{
+           "mañana":{
+            "hora1": "6am a 10am"
+           },
+           "Mediodia":{
+            "hora2": "10am a 2pm"
+           },
+           "Tarde":{
+            "hora3": "2pm a 6pm"
+           }
+        }
+            
     }
 }
