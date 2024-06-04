@@ -9,13 +9,10 @@ def menu_coordinador_menu():
                         "2 Quieres registrar las notas de los campers\n"
                         "3 Quieres crear rutas de entrenamiento \n"
                         "4 Quieres asignar campers a rutas\n"
-                        "5 Asignar  trainers\n"
-                        "6 Modulo de matricula\n"
-                        "7 Consultar campers con bajo rendimiento\n"
-                        "8 Modulo de reportes\n"
-                        "9 Evaluar rendimiento de los campers\n"
-                        "10 Ver salón de entrenamiento\n"
-                        "11 para salir"    
+                        "5 Modulo de matricula\n"
+                        "6 Consultar campers con bajo rendimiento\n"
+                        "7 Modulo de reportes\n"
+                        "8 para salir"    
                 )                   
         print(menu_cordinador)
         opc_menu_coordinador = input("- ")      
@@ -27,7 +24,6 @@ def menu_coordinador_menu():
         elif opc_menu_coordinador == "2":
              print("registrar las notas de los campers")
              asignar_notas_estudiantes_aprobados.leer_datos()
-                    #3 para crear rutas de entrenamiento
                 #3 Quieres crear rutas de entrenamiento
         elif opc_menu_coordinador == "3":
                 print("crear rutas de entrenamiento")       
@@ -35,21 +31,8 @@ def menu_coordinador_menu():
         elif opc_menu_coordinador == "4":
                 print("asignar campers a rutas de entrenamiento")
             #asignar trainers a rutas [33]
-        elif opc_menu_coordinador == "5":
-                print("asignar trainers")
-                opciones_trainer=(
-                     "1 Para ver los trainer"
-                )
-                print(opciones_trainer)
-                opc_menu_trainer = input("~ ")
-                if opc_menu_trainer == "1":
-                     with open('trainer.json','r') as archivo:
-                          datos = json.load(archivo)
-                          print(datos)
-                else:
-                    print("error por favor ingrese uno de los valores que aparecen en pantalla")
             #Modulo de matricula
-        elif opc_menu_coordinador == "6":
+        elif opc_menu_coordinador == "5":
                 print("modulo de matricula")
                 opc_modulo_asignar =(
                 "1 asignar los campers aprobados\n"
@@ -77,10 +60,10 @@ def menu_coordinador_menu():
                     print("Gracias por usar nuestro programa")
                     break
             #Consultar campers con bajo rendimiento
-        elif opc_menu_coordinador == "7":
+        elif opc_menu_coordinador == "6":
                 print("consultar campers con bajo rendimiento")
             #8 Modulo de reportes
-        elif opc_menu_coordinador == "8":
+        elif opc_menu_coordinador == "7":
                 print("modulo de reportes")  
                 opc_modul_reportes = (
                 "1 para Listar los campers que se encuentren en estado de inscrito.\n"
@@ -109,13 +92,9 @@ def menu_coordinador_menu():
                 else:
                     print("error por favor ingrese uno de los valores que aparecen en pantalla")
             #evaluar rendimiento de campers
-        elif opc_menu_coordinador == "9":
-                print("evaluar rendimiento de campers")
-            #Ver areas de entrenamiento
-        elif opc_menu_coordinador == "10":
-                print("Ver salón de entrenamiento")
+        
             #para salir
-        elif opc_menu_coordinador == "11":
+        elif opc_menu_coordinador == "8":
                 print("Gracias por usar nuestro programa")
                 break
         else:

@@ -1,3 +1,4 @@
+import llamar_datos
 while True:
     print("Bienvenido a campus app")
     print("Seguimiento academico de los Campers")
@@ -22,24 +23,12 @@ while True:
         print("¿Que te gustaria hacer?")
         opc_menu_camper = (
             "Presiona 1 si quieres confirmar que estas inscrito \n"
-            "presione 2 si quiere leer tus datos \n"
-            "presione 3 si quieres actualizar tus datos \n"
-            "presione 4 si quiere eliminar su usuario \n"
-            "presione 5 para ver su ruta \n"
-            "presione 6 salir")
+            "presione 2 salir")
         print(opc_menu_camper)
         opc_menu_cmper = input("- ")
         if opc_menu_cmper == "1":
             print("confirmar que estas inscrito")
-
-        elif opc_menu_camper == 2:
-            print("leer tus datos")
-        elif opc_menu_camper == 3:
-            print("Actualizar")
-        elif opc_menu_camper == 4:
-            print("eliminar su usuario")
-        elif opc_menu_camper == 5:
-            print("ver su ruta")
+            llamar_datos.llamar()
         elif opc_menu_camper == 6:
             print("Gracias por usar nuestro programa :)")
             break
@@ -55,4 +44,4 @@ while True:
         import validar_contraseña_coordinador
         validar_contraseña_coordinador.validar_password()
     else:
-        print("error por favor ingrese uno de los tres valores")
+        print("error por favor ingrese uno de los valores")
