@@ -41,7 +41,7 @@ while True:
         elif opc_menu_camper == 5:
             print("ver su ruta")
         elif opc_menu_camper == 6:
-            print("Gracias por usar nuestro programa")
+            print("Gracias por usar nuestro programa :)")
             break
         else:
              print("error por favor ingrese uno de los valores que aparecen en pantalla")
