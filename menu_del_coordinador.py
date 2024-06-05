@@ -1,6 +1,7 @@
 import asignar_notas_estudiantes_aprobados
 import asignar_campers_a_areas
 import asignar_trainer_encargados
+import asignar_rutaentrenamiento
 import json
 def menu_coordinador_menu():
      while True:
@@ -55,6 +56,7 @@ def menu_coordinador_menu():
                     asignar_trainer_encargados.trainers_encargado()
                 elif opc_modul_asignar == "3":
                     print("asignar ruta de entrenamiento asignada")
+                    asignar_rutaentrenamiento.asignar_ruta()
                 elif opc_modul_asignar == "4":
                     print("asignar fecha de inicio")
                 elif opc_modul_asignar == "5":
