@@ -48,6 +48,7 @@ def menu_coordinador_menu():
                 opc_modul_asignar = input("- ")
                 if opc_modul_asignar == "1":
                     print("asignar los campers aprobados")
+                    asignar_campers_a_areas.camper_a_areas()
                 elif opc_modul_asignar == "2":
                     print("asignar trainer encargado")
                 elif opc_modul_asignar == "3":
