@@ -1,14 +1,28 @@
+#contraseñas trainer:
+   #Cotraseña profesor 1 :juanito123
+    #Cotraseña profesor 2 :jholver123
+    #Cotraseña profesor 3 :miguelito123
+#contraseña del coordinador
+#Cotraseña coordinador:coordi123
 import llamar_datos
 while True:
     print("Bienvenido a campus app")
+    print("____________________________________________________________")
+    print(" ")
     print("Seguimiento academico de los Campers")
+    print("____________________________________________________________")
+    print(" ")
     print("Por favor indique su rol")
+    print("____________________________________________________________")
+    print(" ")
     roles = (
          "1. Coordinador\n"
          "2. Trainer\n"
          "3. Camper\n"
          "4. inscribirse como camper\n"
          "5. Para salir\n"
+         "____________________________________________________________\n"
+        " "
     )
     print(roles)
     opc_roles = input("- ") 
@@ -44,4 +58,7 @@ while True:
         import validar_contraseña_coordinador
         validar_contraseña_coordinador.validar_password()
     else:
+        print("____________________________________________________________")
+        print(" ")
         print("error por favor ingrese uno de los valores")
+        

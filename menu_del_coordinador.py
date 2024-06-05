@@ -1,4 +1,5 @@
 import asignar_notas_estudiantes_aprobados
+import asignar_campers_a_areas
 import json
 def menu_coordinador_menu():
      while True:
@@ -30,6 +31,7 @@ def menu_coordinador_menu():
             #4 para asignar campers a rutas de entrenamiento
         elif opc_menu_coordinador == "4":
                 print("asignar campers a rutas de entrenamiento")
+                asignar_campers_a_areas.camper_a_areas()
             #asignar trainers a rutas [33]
             #Modulo de matricula
         elif opc_menu_coordinador == "5":
@@ -91,8 +93,6 @@ def menu_coordinador_menu():
                     print("para salir")
                 else:
                     print("error por favor ingrese uno de los valores que aparecen en pantalla")
-            #evaluar rendimiento de campers
-        
             #para salir
         elif opc_menu_coordinador == "8":
                 print("Gracias por usar nuestro programa")

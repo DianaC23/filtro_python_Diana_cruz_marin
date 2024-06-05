@@ -76,6 +76,17 @@
             "Rutas": "NodeJS"
         }
     },
+    "AREAS": {
+        "aREA1": {
+            "NAREA1": "sputnik"
+        },
+        "aREA2": {
+            "NAREA2": "apolo"
+        },
+        "taREA13": {
+            "NAREA3": "artemis"
+        }
+    },
     "Rutas": {
         "ruta1": {
             "rname": "NodeJS",
