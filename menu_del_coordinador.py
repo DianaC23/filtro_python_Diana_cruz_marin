@@ -37,7 +37,7 @@ def menu_coordinador_menu():
                 opc_modulo_asignar =(
                 "1 asignar los campers aprobados\n"
                 "2 asignar trainer encargado\n"
-                "3 asignar ruta de entrenamiento asignada\n"
+                "3 asignar ruta de entrenamiento\n"
                 "4 asignar fecha de inicio\n"
                 "5 asignar fecha finalización\n"
                 "6 asignar salon de entrenamiento\n")

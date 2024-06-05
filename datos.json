@@ -90,56 +90,17 @@
             "rname": "NETcore",
             "GUARDAR_CAMPER": {}
         },
-        "nruta1": {
-            "nwruta": "Fundamentos de programaci\u00f3n",
-            "nmodulo1": "Introducci\u00f3n a la algoritmia",
-            "nmodulo2": "PSeInt y Python"
+        "nruta":"Desarrollador Full STack",
+        "modulos":{
+            "fundamentos_de_programación":["Introducción al algoritmo","python"],
+            "Programación web":["html","css","bootstrap"],
+            "Programación_formal":["java","javascript","c#"],
+            "Bases_de-datos":["mysql","mongo","postgres"],
+            "Backend":["netcore","nodejs","express"]
         },
-        "nruta2": {
-            "nwruta": "Programacio\u0301n Web",
-            "nmodulo1": "HTML",
-            "nmodulo2": "CSS y Bootstrap"
-        },
-        "nruta3": {
-            "nwruta": "Programacio\u0301n formal",
-            "nmodulo1": "Java y JavaScript",
-            "nmodulo2": "C#"
-        },
-        "nruta4": {
-            "nwruta": "Bases de datos",
-            "nmodulo1": "Mysql",
-            "nmodulo2": "MongoDb y Postgresql"
-        },
-        "nruta5": {
-            "agregar_nruta1": "en espera"
-        },
-        "AREAS": {
-            "area1": {
-                "are1": "Sputnik",
-                "Trainers": "trainer1"
-            },
-            "area2": {
-                "are2": "Apolo",
-                "Trainers": "trainer2"
-            },
-            "area3": {
-                "are3": "Artemis",
-                "Trainers": "trainer3"
-            }
-        },
-        "HORARIO": {
-            "ma\u00f1ana": {
-                "hora1": "6am a 10am",
-                "are3": "Artemis"
-            },
-            "Mediodia": {
-                "hora2": "10am a 2pm",
-                "are1": "Sputnik"
-            },
-            "Tarde": {
-                "hora3": "2pm a 6pm",
-                "are2": "Apolo"
-            }
-        }
-    }
+        "sgdb_principal":"mysql",
+        "sgdb_alternativo":"mongo",
+        "backend":["nodejs","express"]
+ }
+ 
 }
