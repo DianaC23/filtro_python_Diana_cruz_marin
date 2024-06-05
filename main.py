@@ -7,7 +7,7 @@
 import llamar_datos
 while True:
     print("Bienvenido a campus app")
-    print("____________________________________________________________")
+    print("_____________________________________________________________")
     print(" ")
     print("Seguimiento academico de los Campers")
     print("____________________________________________________________")
