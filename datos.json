@@ -76,6 +76,20 @@
             "Rutas": "NodeJS"
         }
     },
+    "Tiempo": {
+        "horario1": {
+            "inicio": "6am",
+            "final": "10am"
+        },
+        "horario2": {
+            "inicio": "10am",
+            "final": "2pm"
+        },
+        "horario3": {
+            "inicio": "2pm",
+            "final": "6pm"
+        }
+    },
     "AREAS": {
         "aREA1": {
             "NAREA1": "sputnik",
@@ -97,46 +111,20 @@
     },
     "Rutas": {
         "ruta1": {
-            "rname": "NodeJS"
+            "rname": "NodeJS",
+            "trainerescogido": "En espera"
         },
         "ruta2": {
-            "rname": "Java"
+            "rname": "Java",
+            "trainerescogido": "Juan"
         },
         "ruta3": {
-            "rname": "NETcore"
+            "rname": "NETcore",
+            "trainerescogido": "En espera"
         },
-        "nruta": "Desarrollador Full STack",
-        "modulos": {
-            "fundamentos_de_programación": [
-                "Introducción al algoritmo",
-                "python"
-            ],
-            "Programación web": [
-                "html",
-                "css",
-                "bootstrap"
-            ],
-            "Programación_formal": [
-                "java",
-                "javascript",
-                "c#"
-            ],
-            "Bases_de-datos": [
-                "mysql",
-                "mongo",
-                "postgres"
-            ],
-            "Backend": [
-                "netcore",
-                "nodejs",
-                "express"
-            ]
+        "Fundamentos de programación": {
+            "nuevar1": []
         },
-        "sgdb_principal": "mysql",
-        "sgdb_alternativo": "mongo",
-        "backend": [
-            "nodejs",
-            "express"
-        ]
+        
     }
 }
