@@ -9,7 +9,7 @@ while True:
     print("Bienvenido a campus app")
     print("_____________________________________________________________")
     print(" ")
-    print("Seguimiento academico de los Campers")
+    print("Seguimiento academico de los Campers :)")
     print("____________________________________________________________")
     print(" ")
     print("Por favor indique su rol")
