@@ -2,7 +2,7 @@
     "campers": {
         "1111": {
             "notas": 100.0,
-            "state": "Aprobado",
+            "state": "en espera",
             "risk": "Rendimiento bajo",
             "notas_trainer": 16.0,
             "llamado": 1,
@@ -78,40 +78,65 @@
     },
     "AREAS": {
         "aREA1": {
-            "NAREA1": "sputnik"
+            "NAREA1": "sputnik",
+            "GUARDAR_CAMPER": [],
+            "cantidad": 0
         },
         "aREA2": {
-            "NAREA2": "apolo"
+            "NAREA2": "apolo",
+            "GUARDAR_CAMPER": [],
+            "cantidad": 33
         },
-        "taREA13": {
-            "NAREA3": "artemis"
+        "aREA3": {
+            "NAREA3": "artemis",
+            "GUARDAR_CAMPER": [
+                "22222"
+            ],
+            "cantidad": 33
         }
     },
     "Rutas": {
         "ruta1": {
-            "rname": "NodeJS",
-            "GUARDAR_CAMPER": []
+            "rname": "NodeJS"
         },
         "ruta2": {
-            "rname": "Java",
-            "GUARDAR_CAMPER": [],
-            "cantidad": 33
+            "rname": "Java"
         },
         "ruta3": {
-            "rname": "NETcore",
-            "GUARDAR_CAMPER": {}
+            "rname": "NETcore"
         },
-        "nruta":"Desarrollador Full STack",
-        "modulos":{
-            "fundamentos_de_programación":["Introducción al algoritmo","python"],
-            "Programación web":["html","css","bootstrap"],
-            "Programación_formal":["java","javascript","c#"],
-            "Bases_de-datos":["mysql","mongo","postgres"],
-            "Backend":["netcore","nodejs","express"]
+        "nruta": "Desarrollador Full STack",
+        "modulos": {
+            "fundamentos_de_programación": [
+                "Introducción al algoritmo",
+                "python"
+            ],
+            "Programación web": [
+                "html",
+                "css",
+                "bootstrap"
+            ],
+            "Programación_formal": [
+                "java",
+                "javascript",
+                "c#"
+            ],
+            "Bases_de-datos": [
+                "mysql",
+                "mongo",
+                "postgres"
+            ],
+            "Backend": [
+                "netcore",
+                "nodejs",
+                "express"
+            ]
         },
-        "sgdb_principal":"mysql",
-        "sgdb_alternativo":"mongo",
-        "backend":["nodejs","express"]
- }
- 
+        "sgdb_principal": "mysql",
+        "sgdb_alternativo": "mongo",
+        "backend": [
+            "nodejs",
+            "express"
+        ]
+    }
 }
