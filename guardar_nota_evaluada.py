@@ -8,6 +8,6 @@ def cargar_usuario():
             datos = json.load(file)
     except FileNotFoundError:
         datos = {"campers":{}}
-    except json.JSONDecoderError:
+    except json.decoder.JSONDecodeError:
         datos = {"campers":{}}
     return datos

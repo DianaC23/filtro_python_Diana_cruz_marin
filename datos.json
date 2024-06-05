@@ -19,7 +19,7 @@
             "notas": 80.0,
             "state": "Aprobado",
             "risk": "Aprobado",
-            "notas_trainer": 100.0,
+            "notas_trainer": 70.0,
             "llamado": 0,
             "name": "Carolina",
             "last_name": "Marin",
@@ -83,39 +83,36 @@
         },
         "ruta2": {
             "rname": "Java",
-            "GUARDAR_CAMPER": []
+            "GUARDAR_CAMPER": [],
+            "cantidad": 33
         },
         "ruta3": {
             "rname": "NETcore",
             "GUARDAR_CAMPER": {}
         },
-            "nruta1":{
-                "nwruta": "Fundamentos de programación",
-                "nmodulo1":"Introducción a la algoritmia",
-                "nmodulo2": "PSeInt y Python"
-
-            },
-            "nruta2":{
-                "nwruta": "Programación Web",
-                "nmodulo1":"HTML",
-                "nmodulo2": "CSS y Bootstrap"
-
-            },
-            "nruta3":{
-                "nwruta": "Programación formal",
-                "nmodulo1":"Java y JavaScript",
-                "nmodulo2": "C#"
-
-            },
-            "nruta4":{
-                "nwruta": "Bases de datos",
-                "nmodulo1":"Mysql",
-                "nmodulo2": "MongoDb y Postgresql"
-
-            },
-            "nruta5":{
-                "agregar_nruta1": "en espera"
-            },
+        "nruta1": {
+            "nwruta": "Fundamentos de programaci\u00f3n",
+            "nmodulo1": "Introducci\u00f3n a la algoritmia",
+            "nmodulo2": "PSeInt y Python"
+        },
+        "nruta2": {
+            "nwruta": "Programacio\u0301n Web",
+            "nmodulo1": "HTML",
+            "nmodulo2": "CSS y Bootstrap"
+        },
+        "nruta3": {
+            "nwruta": "Programacio\u0301n formal",
+            "nmodulo1": "Java y JavaScript",
+            "nmodulo2": "C#"
+        },
+        "nruta4": {
+            "nwruta": "Bases de datos",
+            "nmodulo1": "Mysql",
+            "nmodulo2": "MongoDb y Postgresql"
+        },
+        "nruta5": {
+            "agregar_nruta1": "en espera"
+        },
         "AREAS": {
             "area1": {
                 "are1": "Sputnik",
@@ -131,7 +128,7 @@
             }
         },
         "HORARIO": {
-            "mañana": {
+            "ma\u00f1ana": {
                 "hora1": "6am a 10am",
                 "are3": "Artemis"
             },
@@ -143,7 +140,6 @@
                 "hora3": "2pm a 6pm",
                 "are2": "Apolo"
             }
-        }
         }
     }
 }
