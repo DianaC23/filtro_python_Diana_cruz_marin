@@ -73,49 +73,49 @@
         },
         "trainer3": {
             "profe": "Miguel",
-            "Rutas": "NodeJS"
+            "Rutas": "Java"
         }
     },
     "Tiempo": {
         "horario1": {
-            "inicio": "6am",
-            "final": "10am",
-            "area": "En espera"
+            "inicio": "10pm",
+            "final": "2pm",
+            "area": "Sputnik"
         },
         "horario2": {
-            "inicio": "2pm",
-            "final": "6pm",
-            "area": "En espera"
+            "inicio": "en espera",
+            "final": "en espera",
+            "area": "Artemis"
         },
         "horario3": {
-            "inicio": "2pm",
-            "final": "6pm",
-            "area": "En espera"
+            "inicio": "en espera",
+            "final": "en espera",
+            "area": "Sputnik"
         }
     },
     "AREAS": {
         "aREA1": {
-            "NAREA1": "sputnik",
+            "NAREA1": "Sputnik",
             "GUARDAR_CAMPER": [],
             "cantidad": 0,
-            "horai": "en espera",
-            "horaf": "en espera"
+            "horai": "10 am",
+            "horaf": "2pm"
         },
         "aREA2": {
-            "NAREA2": "apolo",
+            "NAREA2": "Artemis",
             "GUARDAR_CAMPER": [],
             "cantidad": 33,
-            "horai": "en espera",
-            "horaf": "en espera"
+            "horai": "2pm",
+            "horaf": "6pm"
         },
         "aREA3": {
-            "NAREA3": "artemis",
+            "NAREA3": "Sputnik",
             "GUARDAR_CAMPER": [
                 "22222"
             ],
             "cantidad": 33,
-            "horai": "en espera",
-            "horaf": "en espera"
+            "horai": "6 am",
+            "horaf": "10 am"
         }
     },
     "Rutas": {
@@ -125,7 +125,7 @@
         },
         "ruta2": {
             "rname": "Java",
-            "trainerescogido": "Jholver"
+            "trainerescogido": "Miguel"
         },
         "ruta3": {
             "rname": "NETcore",

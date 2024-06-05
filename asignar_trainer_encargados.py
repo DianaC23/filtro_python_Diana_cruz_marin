@@ -2,7 +2,14 @@ import manejo_archivos
 def trainers_encargado():
     while True:
         datos = manejo_archivos.cargar_datos("datos.json")  
+        print("Recuerda que al escoger a Juan solo puede trabajar en el horario de 10 am a 2pm")
+        print(" ")
+        print("Recuerda que al escoger a Jholver solo puede trabajar en el horario de 2 pm a 6pm")
+        print(" ")
+        print("Recuerda que al escoger a Juan solo puede trabajar en el horario de 6 am a 10 am")
+        print(" ")
         elegir = int(input("Elija el trainer\n (1)Juan\n (2)para jholver\n (3)para miguel: "))
+        
         if elegir == 1:
             if datos["Tiempo"]["horario1"]["inicio"] == "6am" and datos["Tiempo"]["horario1"]["final"] == "10am" and datos["Tiempo"]["horario3"]["inicio"] == "10am" and datos["Tiempo"]["horario3"]["final"] == "6pm":
                 print("El profesor Juan no puede trabajar en este horario")
@@ -17,8 +24,11 @@ def trainers_encargado():
                     #fecha final
                     datos["Tiempo"]["horario2"]["final"]= "2pm"
                     print("Se ha asignado al trainer a Juan")
+                    print(" ")
                     print("Se ha asignado la ruta de NodeJS")
+                    print(" ")
                     print("La hora de inicio es a las 10am")
+                    print(" ")
                     print("La hora de finalización es a las 2pm")
                 elif elegirr == 2:
 
@@ -29,8 +39,11 @@ def trainers_encargado():
                     #fecha final
                     datos["Tiempo"]["horario2"]["final"]= "2pm"
                     print("Se ha asignado al trainer a Juan")
+                    print(" ")
                     print("Se ha asignado la ruta de Java")
+                    print(" ")
                     print("La hora de inicio es a las 10am")
+                    print(" ")
                     print("La hora de finalización es a las 2pm")
                 elif elegirr == 3:
 
@@ -41,8 +54,11 @@ def trainers_encargado():
                     #fecha final
                     datos["Tiempo"]["horario2"]["final"]= "2pm"
                     print("Se ha asignado al trainer a Juan")
+                    print(" ")
                     print("Se ha asignado la ruta de NodeJS")
+                    print(" ")
                     print("La hora de inicio es a las 10am")
+                    print(" ")
                     print("La hora de finalización es a las 2pm")
                 else:
                     print("error al tratar de ingresar el trabajo")
@@ -60,8 +76,11 @@ def trainers_encargado():
                     #fecha final
                     datos["Tiempo"]["horario2"]["final"]= "6pm"
                     print("Se ha asignado al trainer a Jholver")
+                    print(" ")
                     print("Se ha asignado la ruta de NodeJS")
+                    print(" ")
                     print("La hora de inicio es a las 2pm")
+                    print(" ")
                     print("La hora de finalización es a las 6pm")
                 elif elegirr == 2:
 
@@ -72,8 +91,11 @@ def trainers_encargado():
                     #fecha final
                     datos["Tiempo"]["horario2"]["final"]= "6pm"
                     print("Se ha asignado al trainer a Jholver")
+                    print(" ")
                     print("Se ha asignado la ruta de Java")
+                    print(" ")
                     print("La hora de inicio es a las 2pm")
+                    print(" ")
                     print("La hora de finalización es a las 6pm")
                 elif elegirr == 3:
 
@@ -84,8 +106,11 @@ def trainers_encargado():
                     #fecha final
                     datos["Tiempo"]["horario2"]["final"]= "6pm"
                     print("Se ha asignado al trainer a Jholver")
+                    print(" ")
                     print("Se ha asignado la ruta de NetCore")
+                    print(" ")
                     print("La hora de inicio es a las 2pm")
+                    print(" ")
                     print("La hora de finalización es a las 6pm")
                 else:
                     print("error al tratar de ingresar el trabajo")
@@ -104,8 +129,11 @@ def trainers_encargado():
                     #fecha final
                     datos["Tiempo"]["horario2"]["final"]= "10am"
                     print("Se ha asignado al trainer a Miguel")
+                    print(" ")
                     print("Se ha asignado la ruta de NodeJS")
+                    print(" ")
                     print("La hora de inicio es a las 6am")
+                    print(" ")
                     print("La hora de finalización es a las 10am")
                 elif elegirr == 2:
 
@@ -116,8 +144,11 @@ def trainers_encargado():
                     #fecha final
                     datos["Tiempo"]["horario2"]["final"]= "10am"
                     print("Se ha asignado al trainer a Miguel")
+                    print(" ")
                     print("Se ha asignado la ruta de Java")
+                    print(" ")
                     print("La hora de inicio es a las 6am")
+                    print(" ")
                     print("La hora de finalización es a las 10am")
                 elif elegirr == 3:
 
@@ -128,8 +159,11 @@ def trainers_encargado():
                     #fecha final
                     datos["Tiempo"]["horario2"]["final"]= "10am"
                     print("Se ha asignado al trainer a Miguel")
+                    print(" ")
                     print("Se ha asignado la ruta de Netcore")
+                    print(" ")
                     print("La hora de inicio es a las 6am")
+                    print(" ")
                     print("La hora de finalización es a las 10am")
                 else:
                     print("error al tratar de ingresar el trabajo")

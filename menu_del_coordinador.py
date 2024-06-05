@@ -1,6 +1,7 @@
 import asignar_notas_estudiantes_aprobados
 import asignar_campers_a_areas
 import asignar_trainer_encargados
+import asignar_salon_entrenamiento
 def menu_coordinador_menu():
      while True:
         menu_cordinador = (
@@ -38,7 +39,7 @@ def menu_coordinador_menu():
                 print("modulo de matricula")
                 opc_modulo_asignar =(
                 "1 asignar los campers aprobados\n"
-                "2 asignar trainer encargado,asignar fecha de inicio y final  y asignar su ruta"\n"
+                "2 asignar trainer encargado,asignar fecha de inicio,final  y asignar su ruta\n"
                 "3 asignar salon de entrenamiento\n")
                 "4 para salir"
                 print(opc_modulo_asignar)
@@ -51,6 +52,7 @@ def menu_coordinador_menu():
                     asignar_trainer_encargados.trainers_encargado()
                 elif opc_modul_asignar == "3":
                     print("asignar salon de entrenamiento")
+                    asignar_salon_entrenamiento.asignar_salon()
                 elif opc_modul_asignar == "4":
                     print("Gracias por usar nuestro programa")
                     break
