@@ -1,8 +1,6 @@
 import asignar_notas_estudiantes_aprobados
 import asignar_campers_a_areas
 import asignar_trainer_encargados
-import asignar_rutaentrenamiento
-import json
 def menu_coordinador_menu():
      while True:
         menu_cordinador = (
@@ -40,30 +38,20 @@ def menu_coordinador_menu():
                 print("modulo de matricula")
                 opc_modulo_asignar =(
                 "1 asignar los campers aprobados\n"
-                "2 asignar trainer encargado\n"
-                "3 asignar ruta de entrenamiento\n"
-                "4 asignar fecha de inicio\n"
-                "5 asignar fecha finalización\n"
-                "6 asignar salon de entrenamiento\n")
-                "7 para salir"
+                "2 asignar trainer encargado,asignar fecha de inicio y final  y asignar su ruta"\n"
+                "3 asignar salon de entrenamiento\n")
+                "4 para salir"
                 print(opc_modulo_asignar)
                 opc_modul_asignar = input("- ")
                 if opc_modul_asignar == "1":
                     print("asignar los campers aprobados")
                     asignar_campers_a_areas.camper_a_areas()
                 elif opc_modul_asignar == "2":
-                    print("asignar trainer encargado")
+                    print("asignar trainer encargado,asignar fecha de inicio y final  y asignar su ruta")
                     asignar_trainer_encargados.trainers_encargado()
                 elif opc_modul_asignar == "3":
-                    print("asignar ruta de entrenamiento asignada")
-                    asignar_rutaentrenamiento.asignar_ruta()
-                elif opc_modul_asignar == "4":
-                    print("asignar fecha de inicio")
-                elif opc_modul_asignar == "5":
-                    print("asignar fecha finalización")
-                elif opc_modul_asignar == "6":
                     print("asignar salon de entrenamiento")
-                elif opc_modul_asignar == "7":
+                elif opc_modul_asignar == "4":
                     print("Gracias por usar nuestro programa")
                     break
             #Consultar campers con bajo rendimiento

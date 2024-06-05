@@ -65,11 +65,11 @@
     "Trainers": {
         "trainer1": {
             "profe": "Juan",
-            "Rutas": "Java"
+            "Rutas": "NodeJS"
         },
         "trainer2": {
             "profe": "Jholver",
-            "Rutas": "Netcore"
+            "Rutas": "Java"
         },
         "trainer3": {
             "profe": "Miguel",
@@ -79,44 +79,53 @@
     "Tiempo": {
         "horario1": {
             "inicio": "6am",
-            "final": "10am"
+            "final": "10am",
+            "area": "En espera"
         },
         "horario2": {
-            "inicio": "10am",
-            "final": "2pm"
+            "inicio": "2pm",
+            "final": "6pm",
+            "area": "En espera"
         },
         "horario3": {
             "inicio": "2pm",
-            "final": "6pm"
+            "final": "6pm",
+            "area": "En espera"
         }
     },
     "AREAS": {
         "aREA1": {
             "NAREA1": "sputnik",
             "GUARDAR_CAMPER": [],
-            "cantidad": 0
+            "cantidad": 0,
+            "horai": "en espera",
+            "horaf": "en espera"
         },
         "aREA2": {
             "NAREA2": "apolo",
             "GUARDAR_CAMPER": [],
-            "cantidad": 33
+            "cantidad": 33,
+            "horai": "en espera",
+            "horaf": "en espera"
         },
         "aREA3": {
             "NAREA3": "artemis",
             "GUARDAR_CAMPER": [
                 "22222"
             ],
-            "cantidad": 33
+            "cantidad": 33,
+            "horai": "en espera",
+            "horaf": "en espera"
         }
     },
     "Rutas": {
         "ruta1": {
             "rname": "NodeJS",
-            "trainerescogido": "En espera"
+            "trainerescogido": "Jholver"
         },
         "ruta2": {
             "rname": "Java",
-            "trainerescogido": "Juan"
+            "trainerescogido": "Jholver"
         },
         "ruta3": {
             "rname": "NETcore",
@@ -125,6 +134,5 @@
         "Fundamentos de programación": {
             "nuevar1": []
         }
-        
     }
 }
