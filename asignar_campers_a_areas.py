@@ -13,9 +13,7 @@ def camper_a_areas():
             return
 
         elegir = int(input("Elija el area de entrenamiento\n (1)para sputnik\n (2)para apolo\n (3)para artemis: "))
-        #Profesor use este que esta lo deje en cero para probar que no se puede llenar
         if elegir == 1:
-            #Probar este que esta en cero para probar que no se puede llenar
             if datos["AREAS"]["aREA1"]["cantidad"] == 0:
                 print("esta lleno no puedes meter mas")
             else:
