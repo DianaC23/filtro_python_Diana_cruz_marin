@@ -76,17 +76,22 @@ def menu_coordinador_menu():
                 opc_modul_reportes = input("- ")
                 if opc_modul_reportes == "1":
                     print("Listar los campers que se encuentren en estado de inscrito.")
-                    mostrar_inscritos.mostrari()
+                    mostrar_inscritos.mostrari()#arreglar por que me muestra los que no pasasron
                 elif opc_modul_reportes == "2":
                     print("para Listar los campers que aprobaron el examen inicial.")
+                    mostrar_inscritos.mostraraprobaroni()#arreglar por que me muestra los que no pasasron
                 elif opc_modul_reportes == "3":
                     print("para Listar los entrenadores que se encuentran trabajando con CampusLands.")
+                    mostrar_inscritos.mostrarentrenadores()
                 elif opc_modul_reportes == "4":
                     print("para Listar los campers que cuentan con bajo rendimiento.")
+                    mostrar_inscritos.mostrarbajo()
                 elif opc_modul_reportes == "5":
                     print("para Listar los campers y trainers que se encuentren asociados a una ruta de entrenamiento.")
+                    mostrar_inscritos.mostrarasociadosaruta()
                 elif opc_modul_reportes == "6":
                     print("para Mostrar cuantos campers perdieron y aprobaron cada uno de los módulos teniendo en cuenta la ruta de entrenamiento y el entrenador encargado.")
+                    mostrar_inscritos.mostrari()
                 elif opc_modul_reportes == "7":
                     print("para salir")
                 else:

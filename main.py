@@ -53,8 +53,8 @@ while True:
         print("Gracias por usar nuestro programa")
         break
     elif opc_roles =="1" or opc_roles == "coordinador" or opc_roles == "Coordinador" or opc_roles == "COORDINADOR":
-        import validar_contraseña_coordinador
-        validar_contraseña_coordinador.validar_password()
+        from validar_contraseña_coordinador import validar_password
+        validar_password()
     else:
         print("____________________________________________________________")
         print(" ")
