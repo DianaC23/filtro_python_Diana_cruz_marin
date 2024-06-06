@@ -15,3 +15,4 @@ def guardar_datos(nombre_archivo,data):
             print("guardo correctamente")
     except Exception:
         print("error al guardar los datos")
+#Listar los campers que se encuentran inscritos

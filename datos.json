@@ -17,7 +17,7 @@
         },
         "22222": {
             "notas": 80.0,
-            "state": "Aprobado",
+            "state": "Inscrito",
             "risk": "Aprobado",
             "notas_trainer": 70.0,
             "llamado": 0,
@@ -32,7 +32,7 @@
         },
         "99090508810": {
             "notas": 0,
-            "state": "Aprobado",
+            "state": "Inscrito",
             "risk": "Aprobado",
             "notas_trainer": 80.4,
             "llamado": 0,
@@ -48,7 +48,7 @@
         },
         "1234567890": {
             "notas": 0,
-            "state": "Aprobado",
+            "state": "Inscrito",
             "risk": "Aprobado",
             "notas_trainer": 80.4,
             "llamado": 0,

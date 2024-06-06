@@ -4,7 +4,6 @@
     #Cotraseña profesor 3 :miguelito123
 #contraseña del coordinador
 #Cotraseña coordinador:coordi123
-import llamar_datos
 while True:
     print("Bienvenido a campus app")
     print("_____________________________________________________________")
@@ -42,7 +41,6 @@ while True:
         opc_menu_cmper = input("- ")
         if opc_menu_cmper == "1":
             print("confirmar que estas inscrito")
-            llamar_datos.llamar()
         elif opc_menu_camper == 6:
             print("Gracias por usar nuestro programa :)")
             break
