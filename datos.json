@@ -4,7 +4,7 @@
             "notas": 100.0,
             "state": "en espera",
             "risk": "Rendimiento bajo",
-            "notas_trainer": 16.0,
+            "notas_trainer": 25.6,
             "llamado": 1,
             "name": "Luis",
             "last_name": "Garcia",
@@ -100,7 +100,8 @@
             "cantidad": 0,
             "horai": "10 am",
             "horaf": "2pm"
-        },
+        }
+        ,
         "aREA2": {
             "NAREA2": "Artemis",
             "GUARDAR_CAMPER": [],
@@ -134,5 +135,10 @@
         "Fundamentos de programación": {
             "nuevar1": []
         }
+    },
+    "en_riesgo": {
+        "RIESGO_CAMPER": [
+            "1111"
+        ]
     }
 }
