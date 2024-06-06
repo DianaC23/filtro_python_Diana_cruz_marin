@@ -2,6 +2,7 @@ import asignar_notas_estudiantes_aprobados
 import asignar_campers_a_areas
 import asignar_trainer_encargados
 import asignar_salon_entrenamiento
+"""import json"""
 def menu_coordinador_menu():
      while True:
         menu_cordinador = (
@@ -74,6 +75,7 @@ def menu_coordinador_menu():
                 opc_modul_reportes = input("- ")
                 if opc_modul_reportes == "1":
                     print("Listar los campers que se encuentren en estado de inscrito.")
+                    """campers_inscritos.inscritos()"""
                 elif opc_modul_reportes == "2":
                     print("para Listar los campers que aprobaron el examen inicial.")
                 elif opc_modul_reportes == "3":

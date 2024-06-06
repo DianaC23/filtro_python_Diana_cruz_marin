@@ -1,8 +1,8 @@
 {
     "campers": {
         "1111": {
-            "notas": 100.0,
-            "state": "en espera",
+            "notas": 12.0,
+            "state": "Reprobo",
             "risk": "Rendimiento bajo",
             "notas_trainer": 25.6,
             "llamado": 1,
@@ -100,8 +100,7 @@
             "cantidad": 0,
             "horai": "10 am",
             "horaf": "2pm"
-        }
-        ,
+        },
         "aREA2": {
             "NAREA2": "Artemis",
             "GUARDAR_CAMPER": [],
@@ -132,7 +131,7 @@
             "rname": "NETcore",
             "trainerescogido": "En espera"
         },
-        "Fundamentos de programación": {
+        "Fundamentos de programaci\u00f3n": {
             "nuevar1": []
         }
     },
