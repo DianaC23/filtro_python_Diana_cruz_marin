@@ -5,7 +5,7 @@ def cargar_y_guardar(nuevo_datos):
 
     if isinstance(datos, dict):
         if "campers" in datos:
-            datos["campers"].append(nuevo_datos)
+            datos["campers"]== nuevo_datos
         else:
             datos["campers"] = [nuevo_datos]
     elif isinstance(datos, list):
@@ -13,4 +13,4 @@ def cargar_y_guardar(nuevo_datos):
     else:
         datos = [nuevo_datos]
     with open('datos.json', 'w') as file:
-        json.dump(datos, file, indent=4) 
+        json.dump(datos, file, indent=4)

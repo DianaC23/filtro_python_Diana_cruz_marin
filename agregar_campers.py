@@ -1,5 +1,7 @@
-import datos_para_inscribir_nuevos_campers
+"""import datos_para_inscribir_nuevos_campers"""
+import manejo_archivos
 def ingresar_datos_d_camper():
+    datos = manejo_archivos.cargar_datos("datos.json")
     datos_camper = {}
     datos_camper ["notas"] = 0
     datos_camper ["state"] = "inscrito"
@@ -14,8 +16,10 @@ def ingresar_datos_d_camper():
     n_ID = datos_camper ["n_ID"]= int(input("Ingrese el numero de identificacion: "))
     datos_camper ["cell_phone"] = int(input("Ingrese su numero de celular: "))  
     datos_camper ["phone"] = int(input("Ingrese su numero de telefono: "))
-    campers = {n_ID:datos_camper}
+    datos["campers"][n_ID] = datos_camper
+    manejo_archivos.guardar_datos("datos.json", datos)
+    """campers = {n_ID:datos_camper}
     print(campers)
     datos_para_inscribir_nuevos_campers.cargar_y_guardar(campers)
     print("El camper ha sido agregado exitosamente")
-ingresar_datos_d_camper()
+ingresar_datos_d_camper()"""

@@ -60,6 +60,21 @@
             "n_ID": 1234567890,
             "cell_phone": 10202,
             "phone": 6666666
+        },
+        "111111": {
+            "notas": 0,
+            "state": "inscrito",
+            "risk": "Aprobado",
+            "notas_trainer": 85.0,
+            "llamado": 0,
+            "name": "skjfsdjkf",
+            "last_name": "fjsfjk",
+            "address": "skjfjkf",
+            "acudiente": "fksfa",
+            "email": "idsds",
+            "n_ID": 111111,
+            "cell_phone": 111123,
+            "phone": 3232
         }
     },
     "Trainers": {
@@ -131,7 +146,7 @@
             "rname": "NETcore",
             "trainerescogido": "En espera"
         },
-        "Fundamentos de programaci\u00f3n": {
+        "Fundamentos de programación": {
             "nuevar1": []
         }
     },
